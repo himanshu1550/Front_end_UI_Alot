@@ -1,0 +1,69 @@
+<style> 
+        body { 
+            margin: auto; 
+            background-position:center; 
+            background-size: contain; 
+        } 
+	.body_sec { 
+            margin-left:20px; 
+        }
+      
+        .menu {    
+            position: sticky; 
+            top: 0; 
+            background-color: #009900; 
+            padding:10px 0px 10px 0px; 
+            color:white; 
+            margin: 0 auto; 
+            overflow: hidden; 
+        } 
+        .menu a { 
+            float left; 
+            color: white; 
+            text-align: center; 
+            padding: 14px 16px; 
+            text-decoration: none; 
+            font-size: 20px; 
+}
+	.menu-log { 
+            right: auto; 
+            float: right; 
+        } 
+
+	.sidenav{
+	height:80%
+	width:250px;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color: #009900;
+	overflow-x:hidden;
+	padding-top: 20px;
+}
+
+       .foot {    
+            position: absolute; 
+            bottom: 0; 
+            background-color: #009900; 
+            padding:10px 685px 10px; 
+            color:white; 
+            margin: 0 auto; 
+            overflow: hidden; 
+        } 
+        .foot a { 
+            float left; 
+            color: white; 
+            text-align: right; 
+            padding: 14px 16px; 
+            text-decoration: none; 
+            font-size: 20px; 
+}
+	.menu-log-1 { 
+            right: auto; 
+            float: right; 
+        } 
+
+         
+      
+</style> 
