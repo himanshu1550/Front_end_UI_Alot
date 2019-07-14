@@ -1,0 +1,44 @@
+p {
+  color: red;
+  text-align: center;
+}   /////////////////////////////Just color the text 
+
+p {
+  text-align: center;
+  color: red;
+} 
+
+#para1 {
+  text-align: center;
+  color: red;
+}   <p id="para1">Hello World!</p>
+
+h1.center {
+  text-align: center;
+  color: red;
+}  <h1 class="center">hihihihihi</h1>
+
+p.large {
+  font-size: 300%;
+}<p class="center large">hihihihihi</p>
+
+
+if more then one Id or class, we can use it like
+h1, h2, p {
+  text-align: center;
+  color: red;
+}/*okokok is comment */
+
+
+************************************************************************************************************
+************************************************************************************************************
+////                   <link rel="stylesheet" type="text/css" href="mystyle.css">            ////////
+************************************************************************************************************
+************************************************************************************************************
+
+
+Inline code 
+<h1 style="background-color:DodgerBlue; text-align:center;">Hello World</h1>
+<h3 style="color:Tomato; text-align:center; padding-top:70px"> Hello World</h3>
+
+
