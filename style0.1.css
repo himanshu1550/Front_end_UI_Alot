@@ -3,67 +3,153 @@
             margin: auto; 
             background-position:center; 
             background-size: contain; 
+	    background-color: lightblue;
         } 
+	
 	.body_sec { 
             margin-left:20px; 
         }
-      
-        .menu {    
-            position: sticky; 
-            top: 0; 
-            background-color: #009900; 
-            padding:10px 0px 10px 0px; 
-            color:white; 
-            margin: 0 auto; 
-            overflow: hidden; 
-        } 
-        .menu a { 
-            float left; 
-            color: white; 
-            text-align: center; 
-            padding: 14px 16px; 
-            text-decoration: none; 
-            font-size: 20px; 
-}
-	.menu-log { 
-            right: auto; 
-            float: right; 
-        } 
+      	
+	header{		
+	position:fixed;
+	top:0;
+	width:100%;
+	height:95px;
+	border-radius: 0px 25px 0px 0px;	
+	background-color: #41d6c3;
+	}	
+	
+		
+	header .login{	
+	text-align: center;
+	background-color:#ffeead;		
+	border-radius:5px;
+	padding: 15px 20px;
+	margin-top: 20px;	
+	margin-right:10px;
+	border-radius:5px;
+	float:right;
+	}	
+		
+	.login a{	
+	font-size:20px;
+	font-family: myFirstFont;
+	color:black;
+		
+	}
+	.login:hover{
+	background-color:#ffa500;
+	}
 
-	.sidenav{
-	height:80%
-	width:250px;
+
+	img{	
+	max-width:100%;	
+	border-radius: 8px;
+	height:auto;
+	}
+
+      	.sidenav{	
 	position:fixed;
 	z-index:1;
 	top:0;
-	left:0;
-	background-color: #009900;
+	width:13%;
+	float:left;
+	height:100%;	
 	overflow-x:hidden;
-	padding-top: 20px;
+	background-color: #41d6c3;
 }
 
-       .foot {    
-            position: absolute; 
-            bottom: 0; 
-            background-color: #009900; 
-            padding:10px 685px 10px; 
-            color:white; 
-            margin: 0 auto; 
-            overflow: hidden; 
-        } 
-        .foot a { 
-            float left; 
-            color: white; 
-            text-align: right; 
-            padding: 14px 16px; 
-            text-decoration: none; 
-            font-size: 20px; 
-}
-	.menu-log-1 { 
-            right: auto; 
-            float: right; 
-        } 
+	.sidenav p{
+	margin:5px;
+	
+	}
 
-         
-      
+
+	
+	.boundry{
+	text-align: center;		
+	background-color:#ffeead;
+	border-radius:5px;
+	padding: 15px 20px;
+	color:Black;	
+	transition: all 0.5s;
+  	cursor: pointer;
+	overflow: hidden;
+	}
+		
+	.boundry span {
+ 	 cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.5s;
+	}
+	
+	.boundry span:after {
+  	content: '\00bb';
+  	position: absolute;
+  	opacity: 0;
+  	top: 0;
+  	right: -20px;
+  	transition: 0.5s;
+	}
+		
+	.boundry:hover span {
+  	padding-right: 25px;
+	}
+		
+	.boundry:hover span:after {
+  	opacity: 1;
+ 	 right: 0;
+	}	
+
+	.boundry:hover{	
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+		
+	
+	.boundry a{
+	font-size:30px;
+	font-family: myFirstFont;
+	color:black;
+	
+	}
+	
+		
+	
+	
+	
+
+<!--
+	content {	
+	border:0px;
+	border-radius: 5px;
+	position:absolute;
+	top:20%;	
+	width:86%;
+	float:right;
+	right:0.5%;
+	background-image: url(images2.jpeg);
+	background-repeat: no-repeat, repeat;
+	background-size: auto;		
+	overflow: auto;
+	
+	}
+	
+	content .data{
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 0px;
+	border-collapse: separate;
+  	border-spacing: 2px 50px;	
+}	
+	
+	.data p{
+	padding: 0px 50px 0px 50px;
+	font-size:20px;
+	text-indent: 50px;
+  	text-align: justify;
+  	letter-spacing: 3px;
+	color:white;
+	}	       
+      -->
 </style> 
